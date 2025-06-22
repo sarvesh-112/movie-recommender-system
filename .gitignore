@@ -1,3 +1,4 @@
 venv
-similarity.pkl
+*.pkl
+!movies_dict.pkl
 
