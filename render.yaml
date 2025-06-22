@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: movie-recommender
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PYTHONUNBUFFERED
+        value: "1"
